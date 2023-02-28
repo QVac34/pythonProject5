@@ -16,8 +16,8 @@ class Car:
         return f"Car with mileage {self.mileage} km, {self.fuel} l of fuel and condition {self.condition}"
 
     def generate_random_car():
-        mileage = random.randint(0, 100000)
-        fuel = random.randint(0, 50)
+        mileage = random.randint(0, 1000000)
+        fuel = random.randint(0, 70)
         conditions = ["new", "used", "old", "dead"]
         condition = random.choice(conditions)
 
