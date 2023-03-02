@@ -13,5 +13,5 @@ class Performance(GPU, CPU):
         print(self.model)
         print(self.resolution)
         print(self.ghz)
-iphone = Performance(intel ="i9 13900KF")
-iphone.print_info()
+PC = Performance(intel ="i9 13900KF")
+PC.print_info()
